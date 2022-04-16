@@ -29,7 +29,7 @@
     padding-top: 20px;
     color: white;
     text-align: center;
-    font-size: 5em;
+    font-size: 6em;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: #000;
   }
@@ -156,9 +156,11 @@
   #barra_principal {
     text-align: center;
     background-color:#bdd3d6;
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 80px;
+  }
+
+  #secao_apresentacao {
+      padding: 50px;
   }
   
   #barra_principal h2 {
@@ -179,17 +181,17 @@
     padding: 60px 0px 60px 0px;
   }
   
-  #resume {
+  .resume {
     margin: 0px 60px 60px 40px;
   }
 
-  #barra_principal li {
+  .minhas_listas {
     color: white;
     padding: 60px;
     text-align: justify;
     list-style-type: none;
     background-color: #0c1218;
-    margin: 0px 0px 80px 0px;
+    margin: 0px 0px 1px 0px;
     text-align: center;
     display: flex;
     flex-direction:column;
@@ -201,7 +203,7 @@
   }
 
   #barra_principal li img {
-      width: 100%;
+      width: 70%;
       margin-top: 60px;
       border: 20px solid transparent;
       animation: animateImg 5s linear infinite;
@@ -225,13 +227,19 @@
     font-size: 2.3em;
     margin: 80px 0px 10px 0px;
   }
+
   
-  .minhas_listas {
-    margin-left: 30px;
-    padding-left: 10px;
-    padding-top:10px;
+  .minhas_experiencias {
+      background-color: transparent;
+      padding: 60px;
+      text-align: left;
   }
   
+  .meusHobbys {
+      list-style-type: circle;
+      text-align: left;
+  }
+
   #foto_trabalho{
     padding-top: 40px;
     width: 700px;
