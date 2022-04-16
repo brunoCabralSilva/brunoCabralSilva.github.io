@@ -5,63 +5,89 @@
     <link rel='stylesheet' type='text/css' href='style.css'>
     <meta charset='UTF-8'>
     <title>Meu Portfólio</title>
-    <link rel='preconnect' href='https://fonts.googleapis.com'>
-    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-    <link href='https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
 </head>
-
 <body>
     <header>
-        <h1>Meu Portfólio</h1>
-        <h2>Bruno Gabryell Cabral da Silva</h2>
+        <img src='imagens/minha_imagem.png' alt='Foto minha retirada na sala de minha humilde casa' id='minha_foto'>
+        <div id = 'header_data'>
+            <h1 id = 'header_title'>Meu Portfólio</h1>
+            <h2 id = 'header_subtitle'>Bruno Gabryell Cabral da Silva</h2>  
+        </div>
+        <nav>
+            <ul id = 'nav_menu'>
+                <li class='menu_principal' id = 'nav1'><a href='https://www.linkedin.com/in/bruno-cabral-336076228/'
+                        target='_blank'>LinkedIn</a></li>
+                <li class='menu_principal' id = 'nav2'><a href='https://github.com/brunoCabralSilva' target='_blank'>GitHub</a></li>
+                <li class='menu_principal' id = 'nav3'><a href='https://www.instagram.com/ga.bryell/' target=' _blank'>Instagram</a>
+                </li>
+                <li class='menu_principal' id = 'nav4'><a href='https://www.facebook.com/bruno.gabryell/' target=' _blank'>Facebook</a>
+                </li>
+    
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li class='menu_principal'><a href='https://www.linkedin.com/in/bruno-cabral-336076228/'
-                    target='_blank'>LinkedIn</a></li>
-            <li class='menu_principal'><a href='https://github.com/brunoCabralSilva' target='_blank'>GitHub</a></li>
-            <li class='menu_principal'><a href='https://www.instagram.com/ga.bryell/' target=' _blank'>Instagram</a>
-            </li>
-            <li class='menu_principal'><a href='https://www.facebook.com/bruno.gabryell/' target=' _blank'>Facebook</a>
-            </li>
-
-        </ul>
-    </nav>
     <main>
         <article id='barra_principal'>
             <section id='secao_apresentacao'>
                 <h3>Seja bem vindo!</h3>
-                <p>
+                <p class = 'resume'>
                     Esta é uma página de autoria própria pensada para ser um portfólio sobre mim. A ideia deste site
                     surgiu
                     através de uma atividade prática da escola que faço parte: <strong>A Trybe!</strong>
                 </p>
 
-                <p>
+                <p class = 'resume'>
                     Atualmente é lá que eu estudo Desenvolvimento Web, escola que traz uma experiência imersiva com foco
                     no mundo do trabalho.
                 </p>
-                <p>
+                <p class = 'resume'>
                     Todavia, já venho de uma jornada muito longa tanto acadêmica quanto profissional.
                 </p>
                 <p>
                 <h4>Ficou curioso? Então saca só um pouco da minha história acadêmica:</h4>
                 <ul>
-                    <li class='minhas_listas'><strong>
-                            Técnico em Eletrônica na Escola Técnica Redentorista</strong> -
-                        Foi o primeiro curso que ingressei após encerrar o ensino médio, iniciando em janeiro de 2011 e
-                        concluindo em julho de 2012;</li>
                     <li class='minhas_listas'>
-                        <strong>Superior Tecnólogo em Análise e Desenvolvimento de Sistemas na
-                            Faculdade Maurício de Nassau - </strong>Minha paixão por desenvolvimento já existia antes,
-                        mas foi aqui que ela aumentou: Iniciei o curso em Janeiro de 2013 e concluí em Dezembro de 2015;
+                        <h5>
+                            Técnico em Eletrônica na Escola Técnica Redentorista
+                        </h5>
+                        <img src = 'imagens/redentorista.jpg' alt = 'Emblema da Escola Tecnica Redentorista'>
+                        <p>
+                        Foi o primeiro curso que ingressei após encerrar o ensino médio, iniciando em janeiro de 2011 e
+                        concluindo em julho de 2012
+                        <p>
                     </li>
-                    <li class='minhas_listas'><strong>
+                    <li class='minhas_listas'>
+                        <h5>Superior Tecnólogo em Análise e Desenvolvimento de Sistemas na
+                            Faculdade Maurício de Nassau
+                        </h5>
+                        <img src = 'imagens/nassau.png' alt = 'Emblema da Escola Tecnica Redentorista'>
+                        <p>
+                            Minha paixão por desenvolvimento já existia antes,
+                        mas foi aqui que ela aumentou: Iniciei o curso em Janeiro de 2013 e concluí em Dezembro de 2015
+                        </p>
+                    </li>
+                    <li class='minhas_listas'>
+                        <h5>
                             Graduação em Engenharia Elétrica na Universidade Federal de
-                            Campina Grande</strong> - Sentindo saudades da eletrônica trabalhada no meu primeiro curso,
+                            Campina Grande
+                        </h5>
+                        <img src = 'imagens/ufcg.png' alt = 'Emblema da Escola Tecnica Redentorista'>
+                        <p>    
+                        Sentindo saudades da eletrônica trabalhada no meu primeiro curso,
                         busquei Engenharia Elétrica para suprir minhas duas paixões. Todavia, aos poucos fui vendo que
-                        não era o que eu queria para mim e, no meio desse processo, surgiu a Trybe.</li>
+                        não era o que eu queria para mim e, no meio desse processo, surgiu a Trybe!
+                        </p></li>
 
                     <h4>Um pouco da minha história profissional:</h4>
                     <ul>
@@ -96,10 +122,7 @@
                         É isto, galera! Este foi um resuminho do resuminho do resuminho de alguns pontos e acontecimentos importantes da minha vida, mas seria impossível definir vinte e oito anos em uma página html/css. Ainda há muito o que viver, aprender e melhorar e por isto estou na Trybe!
                     </p>
         </article>
-        <section id='barra_lateral'>
-            <aside>
-                <img src='imagens/minha_imagem.png' alt='Foto minha retirada na sala de minha humilde casa'
-                    id='minha_foto'>
+               
                 <p>
                     <em>
                         "Amante do que é tecnológico,
@@ -115,8 +138,7 @@
                     <li><strong>Nacionalidade:</strong> brasileiro</li>
                     <li><strong>Onde moro atualmente:</strong> Campina Grande - PB</li>
                 </ul>
-            </aside>
-        </section>
+
     </main>
     <footer>
         © 2022 Bruno Gabryell, Todos os direitos reservados.
