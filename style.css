@@ -234,6 +234,16 @@
       padding: 60px;
       text-align: left;
   }
+
+  #hobbys {
+      margin: 40px;
+      padding: 40px;
+  }
+
+  #hobbys ul {
+    padding-top: 40px;
+    padding-left: 40px;
+  }
   
   .meusHobbys {
       list-style-type: circle;
@@ -242,16 +252,24 @@
 
   #foto_trabalho{
     padding-top: 40px;
-    width: 700px;
+    width: 100%;
     opacity: 0.8;
+  }
+
+  .dados_pessoais {
+      list-style-type: none;
+      padding: 80px 0 80px 0;
+  }
+
+  hr {
+     margin-bottom: 60px;
   }
   
   footer {
+    text-align: center;
     background-size: cover;
     background-position: 25%;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 60px;
     background-color: #0c1218;
   }
