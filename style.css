@@ -7,9 +7,10 @@
   }
   
 body {
-  background-color:#141E27;
+  background-image: url('imagens/cosmos.jpg');
+  color: white;
 }
-  
+
 header {
   display: flex;
   flex-direction: column;
@@ -19,13 +20,13 @@ header {
   background-position: 15% 15%;
 }
 
-#minha_foto {
+#header-image {
   margin-top: 40px;
   width: 40%;
   border-radius: 50%;
 }
 
-#header_title{
+#header_title {
   padding-top: 20px;
   color: white;
   text-align: center;
@@ -68,208 +69,205 @@ nav {
 }
 
 @keyframes animate {
-    20% {
-      background-color: #0c1218;
-    }
-    50% {
-      background-color: transparent;
-    }
+  20% {
+    background-color: #0c1218;
   }
+  50% {
+    background-color: transparent;
+  }
+}
 
-  #nav2 {
-    animation: animate2 5s linear infinite;
+#nav2 {
+  animation: animate2 5s linear infinite;
 }
 
 @keyframes animate2 {
-    0% {
-        background-color: transparent;  
-    }
-
-    20% {
-        background-color: transparent;
-    }
-
-    40% {
+  0% {
+    background-color: transparent;  
+  }
+  20% {
+    background-color: transparent;
+  }
+  40% {
     background-color: #0c1218;
-    }
-
-    70% {
-        background-color: transparent;
-    }
+  }
+  70% {
+    background-color: transparent;
+  }
 }
 
 #nav3 {
-    animation: animate3 5s linear infinite;
+  animation: animate3 5s linear infinite;
 }
 
 @keyframes animate3 {
-    0% {
-        background-color: transparent;  
-    }
-
-    20% {
-        background-color: transparent;
-    }
-
-    40% {
-        background-color: transparent;
-    }
-
-    70% {
-        background-color: #0c1218;
-    }
+  0% {
+    background-color: transparent;  
+  }
+  20% {
+    background-color: transparent;
+  }
+  40% {
+    background-color: transparent;
+  }
+  70% {
+    background-color: #0c1218;
+  }
 }
 
 #nav4 {
-    animation: animate4 5s linear infinite;
+  animation: animate4 5s linear infinite;
 }
 
 @keyframes animate4 {
-    0% {
-        background-color: transparent;  
-    }
-
-    20% {
-        background-color: transparent;
-    }
-
-    40% {
-        background-color: transparent;
-    }
-
-    70% {
-        background-color: transparent;
-    }
-
-    100% {
-        background-color: #0c1218;
-    }
-    
+  0% {
+    background-color: transparent;  
+  }
+  20% {
+    background-color: transparent;
+  }
+  40% {
+    background-color: transparent;
+  }
+  70% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #0c1218;
+  }   
 }
   
-  .menu_principal a{
-    font-size: 2em;
-    color: white;
-    text-decoration: none;
-  }
+.menu_principal a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
    
-  #barra_principal {
-    text-align: center;
-    background-color:#bdd3d6;
-    padding-top: 80px;
-  }
+#barra_principal {
+  text-align: center;
+  padding-top: 80px;
+}
 
-  #secao_apresentacao {
-      padding: 50px;
-  }
+#secao_apresentacao {
+  padding: 50px;
+}
   
-  #barra_principal h2 {
-    padding-top: 30px;
-    font-weight: bolder;
-    padding-bottom: 40px;
-  }
+#barra_principal h2 {
+  padding-top: 30px;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
   
-  #barra_principal h3 {
-    font-size: 4em;
-    font-weight: bolder;
-    padding-bottom: 40px;
-  }
+h3 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  padding: 80px 0px 80px 0px;;
+}
   
-  #barra_principal h4 {
+.resume {
+  margin: 0px 60px 60px 40px;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
 
-    font-size: 2em;
-    padding: 60px 0px 60px 0px;
+.listas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.minhas_listas {
+  color: white;
+  border-radius: 15px;
+  width: 70%;
+  padding: 60px;
+  text-align: justify;
+  list-style-type: none;
+  background-color: rgb(52, 66, 80);
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  font-weight: bolder;
+}
+
+h5 {
+  font-size: 2.3em;
+}
+
+#barra_principal li img {
+  width: 70%;
+  margin-top: 60px;
+  border: 20px solid transparent;
+  border-radius: 15px;
+  animation: animateImg 5s linear infinite;
+}
+
+@keyframes animateImg {
+  0% {
+    border: 20px solid transparent;
   }
+  25% {
+    border: 20px solid #141E27;
+  }
+  50% {
+    border: 20px solid transparent;
+  }
+  75% {
+    border: 20px solid #141E27;
+  }
+}
+
+#barra_principal li p {
+  font-size: 2.3em;
+  margin: 80px 0px 10px 0px;
+}
+
+.minhas_experiencias {
+  background-color: transparent;
+  padding: 60px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.3em;
+}
+
+#hobbys {
+  margin: 40px;
+  padding: 40px;
+}
+
+#hobbys ul {
+  padding-top: 40px;
+  padding-left: 100px;
+}
+ 
+.meusHobbys {
+  list-style-type: numeric;
+  text-align: left;
+  font-size: 2em;
+}
+
+#foto_trabalho {
+  padding-top: 40px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.dados_pessoais {
+  list-style-type: none;
+  padding: 80px 0 80px 0;
+}
+
+hr {
+  margin-bottom: 60px;
+}
   
-  .resume {
-    margin: 0px 60px 60px 40px;
-  }
-
-  .minhas_listas {
-    color: white;
-    padding: 60px;
-    text-align: justify;
-    list-style-type: none;
-    background-color: #0c1218;
-    margin: 0px 0px 1px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-  }
-
-  h5 {
-    font-size: 2.3em;
-  }
-
-  #barra_principal li img {
-      width: 70%;
-      margin-top: 60px;
-      border: 20px solid transparent;
-      animation: animateImg 5s linear infinite;
-  }
-  @keyframes animateImg {
-    0 %{
-        border: 20px solid transparent;
-    }
-    25% {
-        border: 20px solid #bdd3d6;
-    }
-    50% {
-        border: 20px solid transparent;
-    }
-    75% {
-        border: 20px solid #bdd3d6;
-    }
-  }
-
-  #barra_principal li p {
-    font-size: 2.3em;
-    margin: 80px 0px 10px 0px;
-  }
-
-  
-  .minhas_experiencias {
-      background-color: transparent;
-      padding: 60px;
-      text-align: left;
-  }
-
-  #hobbys {
-      margin: 40px;
-      padding: 40px;
-  }
-
-  #hobbys ul {
-    padding-top: 40px;
-    padding-left: 40px;
-  }
-  
-  .meusHobbys {
-      list-style-type: circle;
-      text-align: left;
-  }
-
-  #foto_trabalho{
-    padding-top: 40px;
-    width: 100%;
-    opacity: 0.8;
-  }
-
-  .dados_pessoais {
-      list-style-type: none;
-      padding: 80px 0 80px 0;
-  }
-
-  hr {
-     margin-bottom: 60px;
-  }
-  
-  footer {
-    text-align: center;
-    background-size: cover;
-    background-position: 25%;
-    color: white;
-    padding: 60px;
-    background-color: #0c1218;
-  }
+footer {
+  text-align: center;
+  background-size: cover;
+  background-position: 25%;
+  color: white;
+  padding: 60px;
+  background-color: #0c1218;
+}
