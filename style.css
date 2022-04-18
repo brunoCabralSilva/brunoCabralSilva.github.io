@@ -263,8 +263,8 @@ footer {
   padding: 60px;
   background-color: #0c1218;
 }
-
-@media screen and (min-width: 900px) {
+/* 
+@media screen and (max-width: 2000px) and (min-width: 800px) {
 
   body {
     background-image: url('imagens/fundo2.jpg');
@@ -454,4 +454,4 @@ footer {
     flex-direction: column;
     padding: 5px;
   }
-}
+} */
