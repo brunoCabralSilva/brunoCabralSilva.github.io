@@ -34,7 +34,7 @@ header {
   -webkit-text-stroke-width: 5px;
   -webkit-text-stroke-color: #000;
 }
- 
+
 #header_subtitle {
   color: white;
   text-align: center;
@@ -161,7 +161,7 @@ nav {
 h3 {
   font-size: 2.5em;
   font-weight: bolder;
-  padding: 80px 0px 80px 0px;;
+  padding: 80px 0px 80px 0px;
 }
   
 .resume {
@@ -224,14 +224,6 @@ h5 {
   margin: 80px 0px 10px 0px;
 }
 
-.minhas_experiencias {
-  background-color: transparent;
-  padding: 60px;
-  text-align: center;
-  font-weight: bolder;
-  font-size: 2.3em;
-}
-
 #hobbys {
   margin: 40px;
   padding: 40px;
@@ -270,4 +262,196 @@ footer {
   color: white;
   padding: 60px;
   background-color: #0c1218;
+}
+
+@media screen and (min-width: 900px) {
+
+  body {
+    background-image: url('imagens/fundo2.jpg');
+    background-size: contain;
+    color: white;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('imagens/digitando.jpg');
+    background-size: cover;
+    background-position: 15% 15%;
+  }
+  
+  #header-image {
+    display: none;
+  }
+
+  #header_title {
+    padding-top: 0px;
+    font-size: 4em;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+  }
+
+  #header_subtitle {
+    font-size: 2em;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;  
+  }
+
+  nav {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #nav_menu {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+  }
+  
+  .menu_principal {
+    list-style-type: none;
+    font-size: 0.6em;
+    justify-content: space-evenly;
+    padding: 4px;
+    width: 100%;
+  }
+
+  #barra_principal h2 {
+    padding-top: 0px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+  }
+
+  #barra_principal {
+    text-align: left;
+    padding-top: 0px;
+  }
+
+  .resume {
+    margin: 0px 0px 0px 0px;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 1em;
+    padding-bottom: 20px;
+  }
+
+  #segundo-h3 {
+    font-size: 1.3em;
+  }
+
+  .listas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+  }
+  
+  .minhas_listas {
+    margin: 0px 20px 50px 20px;
+    color: white;
+    border-radius: 15px;
+    width: 25%;
+    padding: 30px;
+    text-align: justify;
+    list-style-type: none;
+    background-color: rgb(52, 66, 80);
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    font-weight: bolder;
+    height: 110vh;
+  }
+
+  .minha_xp {
+    height: 50vh;
+  }
+
+  #barra_principal li p {
+    font-size: 0.9em;
+    margin: 30px 0px 10px 0px;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+
+  #barra_principal li img {
+    width: 70%;
+    margin-top: 20px;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    animation: animateImg 5s linear infinite;
+  }
+
+  @keyframes animateImg {
+    0% {
+      border: 5px solid transparent;
+    }
+    25% {
+      border: 5px solid #141E27;
+    }
+    50% {
+      border: 5px solid transparent;
+    }
+    75% {
+      border: 5px solid #141E27;
+    }
+  }
+
+  #secao_apresentacao {
+    padding: 50px 50px 30px 50px;
+  }
+
+  .h3 {
+    margin-left: 40px;
+    font-size: 2em;
+  }
+
+  #hobbys {
+    margin: 0px;
+    padding: 0px 50px;
+  }
+  
+  #hobbys ul {
+    padding-top: 5px;
+    padding-left: 25px;
+  }
+   
+  .meusHobbys {
+    list-style-type: numeric;
+    text-align: left;
+    font-size: 1em;
+  }
+  
+  #foto_trabalho {
+    display: none;
+    padding-top: 40px;
+    width: 60%;
+  }
+
+  .dados_pessoais {
+    padding: 10px 0 10px 0;
+  }
+
+  hr {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
 }
